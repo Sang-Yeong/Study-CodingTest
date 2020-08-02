@@ -1,4 +1,4 @@
-# 7월 5주차 문제풀이 - 2. 크레인 인형뽑기 게
+# 7월 5주차 문제풀이 - 2. 크레인 인형뽑기 게임
 
 def solution(board, moves):
     answer = 0
@@ -22,4 +22,5 @@ def solution(board, moves):
             answer += 1
         else:
             basket.append(doll)
+            
     return answer
