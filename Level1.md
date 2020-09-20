@@ -1,6 +1,13 @@
 # What I learned while solving the problem.
 
-###### level1_22. [1차] 비밀지도
+##### level1_20. 시저 암호
+- ord()와 chr()
+	- ord(): 문자 --> 아스키코드
+	- chr(): 아스키코드 --> 문자
+
+
+
+##### level1_22. [1차] 비밀지도
 - zip() 함수의 사용
 	- zip(*iterable): 동일한 개수로 이루어진 자료형을 묶어 주는 역할
 
