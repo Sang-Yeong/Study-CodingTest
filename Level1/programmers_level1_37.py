@@ -2,10 +2,10 @@
 
 def solution(arr1, arr2):
     answer = [[]]
-    arr = []
+    arr = []    # 출력형식 맞추기 위해
 
     for a1, a2 in zip(arr1, arr2):
-        for i in range(len(arr1[0])):   # 출력형식 맞추기 위해
+        for i in range(len(arr1[0])):
             arr.append(a1[i]+a2[i])
         answer.append(arr)
         arr= []
