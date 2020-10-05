@@ -3,7 +3,7 @@
 def solution(x, n):
     answer = []
     
-    answer = [x+x*i for i in range(n)]
+    answer = [x+x*i for i in range(n)]  #Comprehension 사용
     
     return answer
 
