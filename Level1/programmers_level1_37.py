@@ -5,12 +5,12 @@ def solution(arr1, arr2):
     arr = []
 
     for a1, a2 in zip(arr1, arr2):
-        for i in range(len(arr1[0])):
+        for i in range(len(arr1[0])):   # 출력형식 맞추기 위해
             arr.append(a1[i]+a2[i])
         answer.append(arr)
         arr= []
      
-    answer.remove(answer[0])
+    answer.remove(answer[0])    #answer가 [[]]로 초기화 되어있을 때, 바로 append해주면 [[], [4], [6]]로 나오기 때문
     
     # answer = [[c + d for c, d in zip(a, b)] for a, b in zip(arr1,arr2)]
     
